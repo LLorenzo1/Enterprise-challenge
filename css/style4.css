@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@200;500&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+*{
+    padding: 0;
+    margin: 0px;
+    font-size: 100%;
+    color: black;
+    font-family: poppins, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255) ;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: rgba(0, 0, 0, 0.158) 1px solid;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo > button > img{
+    width:60px;
+    height: 60px;
+    background-size: cover;
+    background-color: white;
+}
+
+.logo > button{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.titulo_logo{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+header ul{
+    display: flex;
+    list-style: none;
+}
+
+header li{
+    margin: 0 15px;
+}
+
+header li a{
+    color: black;
+}
+
+header li a:hover{
+    color: #5e5b5b;
+}
+
+.fotocaixa.zero{
+    background-image: url('../img/arroz.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.zero{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+
+.zero > h2{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 5px 10px white;
+}
+
+.conteudo{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 80px;
+}
+
+.conteudo > p{
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 16px;
+    display: block;
+    margin-inline-end: 0px;
+    padding-bottom: 20px;
+}
+
+.conteudo > h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.conteudo > img{
+    height: auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.proxima{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+.proxima > a > button{
+    background-color: rgba(83, 83, 83, 0.26);
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+
+.proxima > a > button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.096);
+    display: block;
+}
+
+.footer-geral div{
+    width: 100%;
+    background-color: black;
+    padding: 20px;
+}
+
+.paragrafo{
+    width: 100%;
+}
+
+.paragrafo p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer > button{
+    width: 8%;
+    height: 30px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.footer > button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.footer > h2{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
